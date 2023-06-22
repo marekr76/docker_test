@@ -1,5 +1,8 @@
 # syntax=docker/dockerfile:1
+
 FROM busybox:latest
+
+# put script code directly to the file
 COPY --chmod=755 <<EOF /app/run.sh
 #!/bin/sh
 while true; do
