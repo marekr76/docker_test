@@ -2,7 +2,7 @@
 
 This is project to test automatic build docker image by github.
 
-Exampele form internet
+Exampele from [dvdksn/clockbox](https://github.com/dvdksn/clockbox).
 
 
 ---
