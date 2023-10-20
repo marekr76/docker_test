@@ -2,6 +2,8 @@
 
 FROM busybox:latest
 
+ENV TZ="Europe/Warsaw"
+
 # put script code directly to the file
 COPY --chmod=755 <<EOF /app/run.sh
 #!/bin/sh
