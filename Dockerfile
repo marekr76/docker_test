@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM busybox:latest
+FROM busybox:stable
 
 RUN rm -rf /etc/localtime && ln -s /usr/share/zoneinfo/Europe/Warsaw /etc/localtime
 
